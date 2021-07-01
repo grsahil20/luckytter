@@ -1,0 +1,31 @@
+name: luckytter
+version: 0.1.0
+
+authors:
+  - Sahil Grover <sahil.grover@zalando.de>
+
+targets:
+  luckytter:
+    main: src/luckytter.cr
+
+crystal: 1.0.0
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 0.27.0
+  authentic:
+    github: luckyframework/authentic
+    version: ~> 0.7.3
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.1.4
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: ~> 1.0.0
+  lucky_task:
+    github: luckyframework/lucky_task
+    version: ~> 0.1.0
+  jwt:
+    github: crystal-community/jwt
+    version: ~> 1.5.0
